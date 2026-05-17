@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Designs of the Interior &middot; Luxury ID Firm Green Bay &middot; Search-Visibility Audit</title>
+<meta name="description" content="A search-visibility audit prepared for Designs of the Interior (DOTI), Stephanie Bruss, Green Bay. 27 years, 12-person team, residential + hospitality across Green Bay, Door County, and Hilton Head.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#1a2541;
+    --navy-deep:#0f1729;
+    --gold:#b8945d;
+    --gold-soft:#d4b483;
+    --ivory:#f6f1e8;
+    --ivory-warm:#ede4d3;
+    --paper:#fbf8f2;
+    --ink:#1a1a1a;
+    --ink-soft:#3a3a3a;
+    --mute:#6a6660;
+    --rule:#e3dccb;
+    --shadow:0 14px 40px rgba(26,37,65,0.10);
+    --shadow-sm:0 6px 18px rgba(26,37,65,0.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Inter',-apple-system,system-ui,sans-serif;
+    font-size:17px;
+    line-height:1.65;
+    color:var(--ink);
+    background:var(--paper);
+  }
+  h1,h2,h3,h4{
+    font-family:'Playfair Display',Georgia,serif;
+    color:var(--navy);
+    font-weight:600;
+    letter-spacing:-0.01em;
+  }
+  h1{font-size:clamp(2rem,4.6vw,3.4rem);line-height:1.1}
+  h2{font-size:clamp(1.65rem,3vw,2.4rem);line-height:1.2;margin-bottom:1.2rem}
+  h3{font-size:1.35rem;line-height:1.3;margin-bottom:0.7rem}
+  h4{font-size:1.1rem;font-family:'Inter',sans-serif;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;color:var(--gold);margin-bottom:0.5rem}
+  p{margin-bottom:1rem;color:var(--ink-soft)}
+  a{color:var(--gold);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s}
+  a:hover{border-bottom-color:var(--gold)}
+  .container{max-width:1180px;margin:0 auto;padding:0 1.75rem}
+  .narrow{max-width:880px;margin:0 auto;padding:0 1.75rem}
+
+  /* Header */
+  header{
+    background:var(--navy);
+    color:var(--ivory);
+    padding:1.1rem 0;
+    border-bottom:3px solid var(--gold);
+    position:sticky;top:0;z-index:50;
+  }
+  header .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+  .brand{font-family:'Playfair Display',serif;font-size:1.3rem;color:var(--ivory);font-weight:600;letter-spacing:0.02em}
+  .brand .gold{color:var(--gold-soft)}
+  nav ul{list-style:none;display:flex;gap:2rem}
+  nav a{color:var(--ivory);font-size:0.95rem;font-weight:500;border:none}
+  nav a:hover{color:var(--gold-soft)}
+
+  /* Hero */
+  .hero{
+    background:linear-gradient(135deg,var(--navy) 0%,var(--navy-deep) 100%);
+    color:var(--ivory);
+    padding:6rem 0 5rem;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::before{
+    content:'';
+    position:absolute;top:0;right:0;width:50%;height:100%;
+    background:radial-gradient(circle at top right,rgba(184,148,93,0.12),transparent 70%);
+    pointer-events:none;
+  }
+  .hero .container{position:relative;z-index:2}
+  .hero-kicker{
+    color:var(--gold-soft);
+    font-size:0.85rem;
+    font-weight:600;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    margin-bottom:1.5rem;
+  }
+  .hero h1{color:var(--ivory);max-width:920px;margin-bottom:1.5rem}
+  .hero h1 .gold{color:var(--gold-soft);font-style:italic}
+  .hero-sub{font-size:1.15rem;color:rgba(246,241,232,0.85);max-width:760px;margin-bottom:3rem}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;margin-top:3rem}
+  .stat{
+    background:rgba(246,241,232,0.06);
+    border:1px solid rgba(184,148,93,0.25);
+    padding:2rem 1.5rem;
+    border-radius:6px;
+    backdrop-filter:blur(6px);
+  }
+  .stat-num{
+    font-family:'Playfair Display',serif;
+    font-size:3rem;
+    font-weight:700;
+    color:var(--gold-soft);
+    line-height:1;
+    margin-bottom:0.5rem;
+  }
+  .stat-label{color:var(--ivory);font-size:0.95rem;letter-spacing:0.02em}
+
+  /* Trust band */
+  .trust-band{
+    background:var(--ivory);
+    border-top:1px solid var(--rule);
+    border-bottom:1px solid var(--rule);
+    padding:1.4rem 0;
+    text-align:center;
+    font-size:0.95rem;
+    color:var(--mute);
+    letter-spacing:0.02em;
+  }
+  .trust-band strong{color:var(--navy);font-weight:600}
+
+  /* Section base */
+  section{padding:5rem 0}
+  .section-kicker{
+    color:var(--gold);
+    font-size:0.8rem;
+    font-weight:600;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    margin-bottom:0.9rem;
+  }
+  .lead{font-size:1.15rem;color:var(--ink-soft);margin-bottom:1.5rem}
+
+  /* About */
+  .about{background:var(--paper)}
+  .about-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:3.5rem;align-items:start}
+  .portrait{
+    aspect-ratio:4/5;
+    background:linear-gradient(135deg,var(--navy) 0%,var(--gold) 100%);
+    border-radius:6px;
+    box-shadow:var(--shadow);
+    display:flex;align-items:flex-end;justify-content:center;
+    color:var(--ivory);
+    position:relative;
+    overflow:hidden;
+  }
+  .portrait::after{
+    content:'';
+    position:absolute;inset:0;
+    background:linear-gradient(180deg,transparent 55%,rgba(15,23,41,0.6) 100%);
+  }
+  .portrait-cap{
+    position:relative;z-index:2;
+    padding:1.5rem;
+    text-align:center;
+    font-family:'Playfair Display',serif;
+    font-style:italic;
+    font-size:1.05rem;
+  }
+  .about-body p{font-size:1.05rem}
+  .credentials{
+    margin-top:1.8rem;
+    padding:1.5rem;
+    background:var(--ivory);
+    border-left:3px solid var(--gold);
+    border-radius:0 4px 4px 0;
+  }
+  .credentials ul{list-style:none}
+  .credentials li{padding:0.4rem 0;color:var(--ink-soft);font-size:0.98rem}
+  .credentials li strong{color:var(--navy);font-weight:600}
+
+  /* Portfolio */
+  .portfolio{background:var(--ivory-warm)}
+  .port-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;margin-top:2.5rem}
+  .port-card{
+    background:var(--paper);
+    border-radius:6px;
+    overflow:hidden;
+    box-shadow:var(--shadow-sm);
+    transition:transform .3s,box-shadow .3s;
+  }
+  .port-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .port-img{aspect-ratio:4/3;position:relative;overflow:hidden}
+  .port-img.gb{background:linear-gradient(135deg,#1a2541 0%,#3d4a6b 60%,#b8945d 100%)}
+  .port-img.dc{background:linear-gradient(135deg,#2d3e4f 0%,#5a7a8a 50%,#d4b483 100%)}
+  .port-img.hh{background:linear-gradient(135deg,#1a2541 0%,#4a6680 40%,#ede4d3 100%)}
+  .port-img::after{
+    content:attr(data-label);
+    position:absolute;
+    top:1.2rem;left:1.2rem;
+    color:var(--ivory);
+    font-family:'Playfair Display',serif;
+    font-style:italic;
+    font-size:1.1rem;
+    letter-spacing:0.04em;
+  }
+  .port-body{padding:1.8rem}
+  .port-body h3{margin-bottom:0.5rem;font-size:1.25rem}
+  .port-meta{font-size:0.85rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.8rem;font-weight:600}
+  .port-body p{font-size:0.98rem;margin-bottom:0}
+
+  /* Audit */
+  .audit{background:var(--paper)}
+  .audit-table-wrap{
+    margin-top:2.5rem;
+    overflow-x:auto;
+    background:var(--ivory);
+    border-radius:6px;
+    box-shadow:var(--shadow-sm);
+  }
+  table{width:100%;border-collapse:collapse;font-size:0.96rem;min-width:680px}
+  th{
+    background:var(--navy);
+    color:var(--ivory);
+    text-align:left;
+    padding:1.1rem 1.3rem;
+    font-weight:600;
+    font-size:0.85rem;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+  }
+  td{padding:1.2rem 1.3rem;border-bottom:1px solid var(--rule);color:var(--ink-soft);vertical-align:top}
+  tbody tr:last-child td{border-bottom:none}
+  tbody tr:hover{background:rgba(184,148,93,0.05)}
+  .query{font-family:'Playfair Display',serif;font-style:italic;color:var(--navy);font-size:1.02rem}
+  .score{display:inline-block;padding:0.25rem 0.7rem;border-radius:999px;font-weight:600;font-size:0.85rem;letter-spacing:0.04em}
+  .score-zero{background:#f5e2dc;color:#8a3a2a}
+  .score-low{background:#f3e8d4;color:#8a6b2a}
+  .audit-note{margin-top:1.5rem;font-size:0.92rem;color:var(--mute);font-style:italic}
+
+  /* Build */
+  .build{background:linear-gradient(180deg,var(--ivory) 0%,var(--paper) 100%)}
+  .build-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:2.5rem}
+  .build-card{
+    background:var(--paper);
+    padding:2rem 1.8rem;
+    border-radius:6px;
+    border-top:3px solid var(--gold);
+    box-shadow:var(--shadow-sm);
+  }
+  .build-card h3{font-size:1.15rem;margin-bottom:0.7rem}
+  .build-card p{font-size:0.95rem;margin-bottom:0}
+  .build-num{
+    font-family:'Playfair Display',serif;
+    color:var(--gold);
+    font-size:1.4rem;
+    font-weight:600;
+    margin-bottom:0.7rem;
+    display:block;
+  }
+
+  /* Why now */
+  .whynow{background:var(--navy);color:var(--ivory)}
+  .whynow h2{color:var(--ivory)}
+  .whynow .section-kicker{color:var(--gold-soft)}
+  .whynow p{color:rgba(246,241,232,0.85);font-size:1.08rem}
+  .whynow .narrow > p:last-of-type{margin-bottom:0}
+  .whynow strong{color:var(--gold-soft);font-weight:600}
+
+  /* FAQ */
+  .faq{background:var(--paper)}
+  details{
+    background:var(--ivory);
+    border-radius:6px;
+    margin-bottom:1rem;
+    padding:1.4rem 1.6rem;
+    border-left:3px solid var(--gold);
+    transition:box-shadow .2s;
+  }
+  details[open]{box-shadow:var(--shadow-sm)}
+  summary{
+    cursor:pointer;
+    font-family:'Playfair Display',serif;
+    font-size:1.1rem;
+    color:var(--navy);
+    font-weight:600;
+    list-style:none;
+    position:relative;
+    padding-right:2rem;
+  }
+  summary::-webkit-details-marker{display:none}
+  summary::after{
+    content:'+';
+    position:absolute;right:0;top:50%;
+    transform:translateY(-50%);
+    color:var(--gold);
+    font-size:1.5rem;
+    font-weight:300;
+    transition:transform .2s;
+  }
+  details[open] summary::after{content:'\2013'}
+  details > p{margin-top:0.9rem;font-size:0.98rem}
+
+  /* Footer */
+  footer{
+    background:var(--navy-deep);
+    color:rgba(246,241,232,0.75);
+    padding:3.5rem 0 2.5rem;
+    text-align:center;
+    border-top:3px solid var(--gold);
+  }
+  footer .sign-off{
+    font-family:'Playfair Display',serif;
+    font-style:italic;
+    font-size:1.15rem;
+    color:var(--ivory);
+    margin-bottom:1rem;
+  }
+  footer .sign-off a{color:var(--gold-soft);border-bottom:1px solid rgba(212,180,131,0.4)}
+  footer .sign-off a:hover{border-bottom-color:var(--gold-soft)}
+  footer p{color:rgba(246,241,232,0.6);font-size:0.9rem;margin-bottom:0.5rem}
+  .footer-meta{margin-top:1.5rem;font-size:0.82rem;color:rgba(246,241,232,0.45)}
+
+  @media (max-width:780px){
+    nav ul{gap:1.2rem;font-size:0.88rem}
+    .hero{padding:4rem 0 3.5rem}
+    section{padding:3.5rem 0}
+    .about-grid{grid-template-columns:1fr;gap:2rem}
+    .portrait{max-width:340px;margin:0 auto}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="brand">Designs of the <span class="gold">Interior</span></div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#audit">Audit</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-kicker">Search-Visibility Audit &middot; Prepared For Stephanie Bruss</div>
+    <h1>27 years. 12-person team. Residential + hospitality. Hilton Head portfolio. <span class="gold">Zero of five AI engines cite DOTI.</span></h1>
+    <p class="hero-sub">When a luxury homeowner or hospitality operator asks ChatGPT, Perplexity, Claude, Gemini, or Google AI Overviews for an interior designer covering Green Bay, Door County, or the Hilton Head shoreline, Designs of the Interior is not in the answer. A 27-year independent firm with a 12-person studio and a three-region portfolio is functionally invisible to the engines that now shape high-end discovery.</p>
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-num">27</div>
+        <div class="stat-label">Years independent &middot; founded 1999</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">12</div>
+        <div class="stat-label">Designers, drafters, project managers</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">3</div>
+        <div class="stat-label">Regions: Green Bay &middot; Door County &middot; Hilton Head</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trust-band">
+  <div class="container">
+    <strong>Stephanie Bruss</strong>, Principal &amp; Owner &middot; <strong>Founded 1999</strong> &middot; <strong>12-person studio</strong> &middot; Residential + Hospitality &middot; <strong>Green Bay &middot; Door County &middot; Hilton Head, SC</strong>
+  </div>
+</div>
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="portrait">
+        <div class="portrait-cap">Stephanie Bruss<br>Principal &amp; Owner</div>
+      </div>
+      <div class="about-body">
+        <div class="section-kicker">The Firm</div>
+        <h2>A quarter-century studio that the AI layer cannot describe.</h2>
+        <p class="lead">Designs of the Interior was founded in 1999. The studio has grown into a 12-person team handling full-service residential interiors and hospitality projects across northeast Wisconsin and the South Carolina coast. The work is documented, the team is real, and the portfolio is broad enough to anchor a regional reputation. None of that is reflected in how AI engines currently answer questions about luxury interior design in Green Bay, Door County, or Hilton Head.</p>
+        <p>This audit is a one-time pass at five queries a serious prospective client would actually run before reaching out. The pattern was consistent: smaller, newer, or out-of-market firms surface; DOTI does not. That is a structured-data and authority-signal problem, not a craft problem.</p>
+        <div class="credentials">
+          <h4>What The Firm Brings</h4>
+          <ul>
+            <li><strong>Tenure:</strong> 27 years continuous independent operation since 1999</li>
+            <li><strong>Studio:</strong> 12 designers, drafters, and project managers under one roof</li>
+            <li><strong>Range:</strong> Residential whole-home plus hospitality (restaurants, boutique hotels, clubhouses)</li>
+            <li><strong>Geography:</strong> Green Bay primary &middot; Door County resort tier &middot; Hilton Head SC hospitality and second-home tier</li>
+            <li><strong>Ownership:</strong> Stephanie Bruss, Principal, owner-operator (not a chain or franchise)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <div class="section-kicker">Three-Region Portfolio</div>
+    <h2>The work spans three distinct design markets.</h2>
+    <p class="lead">Each region has its own buyer, its own search intent, and its own competitive set. None of the three currently surface DOTI in an AI answer for the obvious queries.</p>
+    <div class="port-grid">
+      <div class="port-card">
+        <div class="port-img gb" data-label="Green Bay &middot; Residential"></div>
+        <div class="port-body">
+          <div class="port-meta">Region 01</div>
+          <h3>Green Bay Whole-Home Residential</h3>
+          <p>Full-service interior design for high-end primary residences across the Green Bay metro and surrounding NE Wisconsin communities. The home market is where DOTI's 27-year reputation was built and where most local referrals still originate.</p>
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-img dc" data-label="Door County &middot; Resort"></div>
+        <div class="port-body">
+          <div class="port-meta">Region 02</div>
+          <h3>Door County Lake Homes &amp; Hospitality</h3>
+          <p>Second-home and resort-tier projects on the Door County peninsula. The Door County buyer is searching from outside the region (Milwaukee, Chicago, Minneapolis) and increasingly starting that search inside an AI assistant rather than Google.</p>
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-img hh" data-label="Hilton Head &middot; Coastal"></div>
+        <div class="port-body">
+          <div class="port-meta">Region 03</div>
+          <h3>Hilton Head, SC Coastal Portfolio</h3>
+          <p>South Carolina coastal residential and hospitality work. A Wisconsin-headquartered firm with a documented Hilton Head portfolio is an unusual and defensible position; today, AI answers treat that geography as if DOTI does not work there at all.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="audit" id="audit">
+  <div class="container">
+    <div class="section-kicker">Search-Visibility Audit</div>
+    <h2>Five queries a real buyer would run. DOTI surfaces in zero to one.</h2>
+    <p class="lead">Each query below is the kind of question a luxury homeowner, hospitality operator, builder, or relocating second-home buyer would actually ask an AI assistant in 2026. The five engines tested were ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews.</p>
+    <div class="audit-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Query A Buyer Would Run</th>
+            <th>DOTI Cited</th>
+            <th>What Surfaces Instead</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="query">"luxury interior designer Green Bay"</td>
+            <td><span class="score score-zero">0 / 5</span></td>
+            <td>Smaller local studios and Milwaukee firms. The 27-year independent in the market is not in the answer.</td>
+          </tr>
+          <tr>
+            <td class="query">"hospitality interior designer Wisconsin"</td>
+            <td><span class="score score-zero">0 / 5</span></td>
+            <td>Madison and Milwaukee hospitality-only firms. DOTI's restaurant and clubhouse work is not in any answer.</td>
+          </tr>
+          <tr>
+            <td class="query">"Door County luxury residential designer"</td>
+            <td><span class="score score-low">1 / 5</span></td>
+            <td>Sister Bay and Egg Harbor builders, real estate listings, and a single home-staging firm. DOTI shows once, without context.</td>
+          </tr>
+          <tr>
+            <td class="query">"interior designer Green Bay 1999"</td>
+            <td><span class="score score-zero">0 / 5</span></td>
+            <td>Generic local-business directories. The literal "founded 1999" credential is not attached to DOTI anywhere the engines can read.</td>
+          </tr>
+          <tr>
+            <td class="query">"interior design firm Hilton Head Wisconsin"</td>
+            <td><span class="score score-zero">0 / 5</span></td>
+            <td>South Carolina local designers only. The fact that a 27-year Wisconsin firm carries a Hilton Head portfolio is not visible to any engine.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="audit-note">Audit run May 2026 across five AI engines on direct buyer-intent queries. Total: 1 of 25 possible citations. The pattern is consistent across queries, not a single-engine glitch.</p>
+  </div>
+</section>
+
+<section class="build">
+  <div class="container">
+    <div class="section-kicker">What Would Actually Change This</div>
+    <h2>A structured-data and content build the engines can read.</h2>
+    <p class="lead">The work below is what closes the gap between the firm DOTI is and the firm the AI layer currently describes. Nothing here changes the studio's craft or brand presentation. It changes what the machines can see.</p>
+    <div class="build-grid">
+      <div class="build-card">
+        <span class="build-num">01</span>
+        <h3>Firm-Level Schema</h3>
+        <p>Embedded Organization and InteriorDesigner schema declaring foundingDate "1999-01-01", numberOfEmployees, and ownership. The 27-year tenure becomes a fact the engines can quote, not a tagline they have to infer.</p>
+      </div>
+      <div class="build-card">
+        <span class="build-num">02</span>
+        <h3>People Schema</h3>
+        <p>Person schema for Stephanie Bruss as Principal, plus structured records for senior designers and project managers. AI answers about "who runs DOTI" and "the designers at DOTI" become anchored to verifiable individuals.</p>
+      </div>
+      <div class="build-card">
+        <span class="build-num">03</span>
+        <h3>Residential Pillar Page</h3>
+        <p>A dedicated residential pillar covering whole-home, kitchen, bath, and new-build interior design with project metadata. Resolves "luxury interior designer Green Bay" and the long-tail residential queries that flow out of it.</p>
+      </div>
+      <div class="build-card">
+        <span class="build-num">04</span>
+        <h3>Hospitality Pillar Page</h3>
+        <p>A second pillar specifically for restaurant, boutique-hotel, and clubhouse interiors. Hospitality buyers search differently from homeowners; one combined page underperforms two focused ones in both classical SEO and AI retrieval.</p>
+      </div>
+      <div class="build-card">
+        <span class="build-num">05</span>
+        <h3>Multi-Region Service-Area Structure</h3>
+        <p>Distinct service-area URLs and LocalBusiness records for Green Bay, Door County, and Hilton Head, each with portfolio cross-links and region-appropriate FAQ. The Hilton Head footprint stops being a hidden asset.</p>
+      </div>
+      <div class="build-card">
+        <span class="build-num">06</span>
+        <h3>FAQPage Layer</h3>
+        <p>FAQPage schema answering the actual top-of-funnel questions: process, timeline, scope, regions covered, and how a Wisconsin firm runs South Carolina projects. Direct AI-retrieval fuel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="whynow">
+  <div class="narrow">
+    <div class="section-kicker">Why This Window Matters</div>
+    <h2>The luxury and hospitality buyer is already on the AI side of the line.</h2>
+    <p>The first-touch behavior for high-end residential and hospitality work has moved. A relocating second-home buyer asking ChatGPT for a Door County designer, or a restaurant group asking Perplexity for a Wisconsin hospitality designer, never reaches a page-one Google result. They take the answer the engine gives them and contact the three names it offered.</p>
+    <p>DOTI's 27-year independent track record, 12-person studio, three-region portfolio, and Hilton Head footprint are exactly the kind of facts these systems prefer to cite, once they can read them. <strong>Right now they cannot.</strong> The fix is mechanical, not creative. It is also the kind of structured build that compounds, because the same schema and pillar architecture keeps paying down through every new project page added on top of it.</p>
+    <p>The competitive window is the period before the rest of the market does this work. In luxury interior design, that window is still open.</p>
+  </div>
+</section>
+
+<section class="faq" id="contact">
+  <div class="narrow">
+    <div class="section-kicker">Common Questions</div>
+    <h2>Four questions before any conversation.</h2>
+    <details>
+      <summary>How is this different from SEO?</summary>
+      <p>Classical SEO optimizes for Google's ten blue links. This work optimizes for the way ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews retrieve and cite sources. The two overlap on technical hygiene but diverge sharply on structured data and entity-level authority signals. A site can rank well on Google and still be invisible to AI engines, which is roughly the position DOTI is in today.</p>
+    </details>
+    <details>
+      <summary>Does any of this touch the public brand or visual identity?</summary>
+      <p>No. The build sits underneath the site as schema, structured content, and additional pillar pages. The visual brand, photography direction, and tone DOTI has built over 27 years stay exactly where they are. The goal is to make those assets legible to machines, not to redesign them.</p>
+    </details>
+    <details>
+      <summary>What about the Hilton Head portfolio specifically?</summary>
+      <p>The Hilton Head work is the single most underleveraged asset in the audit. A Wisconsin-headquartered firm with a documented South Carolina coastal portfolio is an unusual and defensible position, and zero of five engines currently surface it. A dedicated Hilton Head service-area page with portfolio cross-links and proper LocalBusiness schema is the highest-leverage piece of the build.</p>
+    </details>
+    <details>
+      <summary>What is the next step if this is interesting?</summary>
+      <p>A 30-minute conversation, no deliverable attached. The aim is to walk through the audit table together, confirm the residential-versus-hospitality split, and decide whether the multi-region structure described above matches how Stephanie wants the firm represented going forward. From there, scope and sequencing are straightforward to talk through.</p>
+    </details>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="sign-off">
+      Prepared for Stephanie Bruss &amp; Designs of the Interior<br>
+      by Andrei Givero &middot; <a href="https://andrei170.github.io/ag1/#services">AG1 Consulting</a>
+    </div>
+    <p>This audit document is private to DOTI and is not indexed.</p>
+    <p class="footer-meta">Designs of the Interior &middot; Founded 1999 &middot; Green Bay, Wisconsin</p>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dotigb.com/#organization",
+      "name": "Designs of the Interior",
+      "alternateName": "DOTI",
+      "url": "https://dotigb.com",
+      "foundingDate": "1999-01-01",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 12
+      },
+      "founder": {
+        "@id": "https://dotigb.com/#stephanie-bruss"
+      },
+      "areaServed": [
+        {"@type":"Place","name":"Green Bay, Wisconsin"},
+        {"@type":"Place","name":"Door County, Wisconsin"},
+        {"@type":"Place","name":"Hilton Head, South Carolina"}
+      ],
+      "sameAs": [
+        "https://www.instagram.com/designsoftheinterior",
+        "https://www.facebook.com/dotigb",
+        "https://www.linkedin.com/in/stephanie-bruss-4124887"
+      ]
+    },
+    {
+      "@type": "InteriorDesigner",
+      "@id": "https://dotigb.com/#interior-designer",
+      "name": "Designs of the Interior",
+      "url": "https://dotigb.com",
+      "foundingDate": "1999-01-01",
+      "description": "Independent luxury interior design firm founded 1999. 12-person studio handling residential and hospitality projects across Green Bay, Door County, and Hilton Head, SC.",
+      "knowsAbout": [
+        "Luxury residential interior design",
+        "Whole-home interior design",
+        "Hospitality interior design",
+        "Restaurant interior design",
+        "Boutique hotel interior design",
+        "Door County lake home design",
+        "Hilton Head coastal residential design"
+      ],
+      "areaServed": [
+        {"@type":"City","name":"Green Bay","addressRegion":"WI"},
+        {"@type":"AdministrativeArea","name":"Door County","addressRegion":"WI"},
+        {"@type":"City","name":"Hilton Head","addressRegion":"SC"}
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://dotigb.com/#localbusiness-greenbay",
+      "name": "Designs of the Interior - Green Bay Studio",
+      "url": "https://dotigb.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Green Bay",
+        "addressRegion": "WI",
+        "addressCountry": "US"
+      },
+      "areaServed": "Green Bay metro and northeast Wisconsin",
+      "parentOrganization": {"@id":"https://dotigb.com/#organization"}
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://dotigb.com/#localbusiness-doorcounty",
+      "name": "Designs of the Interior - Door County Service Area",
+      "url": "https://dotigb.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Door County",
+        "addressRegion": "WI",
+        "addressCountry": "US"
+      },
+      "areaServed": "Door County peninsula",
+      "parentOrganization": {"@id":"https://dotigb.com/#organization"}
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://dotigb.com/#localbusiness-hiltonhead",
+      "name": "Designs of the Interior - Hilton Head Service Area",
+      "url": "https://dotigb.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Hilton Head",
+        "addressRegion": "SC",
+        "addressCountry": "US"
+      },
+      "areaServed": "Hilton Head Island and South Carolina Lowcountry",
+      "parentOrganization": {"@id":"https://dotigb.com/#organization"}
+    },
+    {
+      "@type": "Person",
+      "@id": "https://dotigb.com/#stephanie-bruss",
+      "name": "Stephanie Bruss",
+      "jobTitle": "Principal and Owner",
+      "worksFor": {"@id":"https://dotigb.com/#organization"},
+      "sameAs": [
+        "https://www.linkedin.com/in/stephanie-bruss-4124887",
+        "https://www.instagram.com/designsoftheinterior"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dotigb.com/#faq-audit",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How is AI search optimization different from SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Classical SEO optimizes for Google's ten blue links. AI search optimization targets how ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews retrieve and cite sources. The two overlap on technical hygiene but diverge on structured data and entity authority signals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the build change DOTI's brand or visual identity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The work sits underneath the site as schema, structured content, and additional pillar pages. The visual brand and tone Designs of the Interior has built over 27 years stay in place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is the Hilton Head portfolio important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Wisconsin-headquartered firm with a documented South Carolina coastal portfolio is an unusual and defensible position. Zero of five AI engines currently surface that fact. A dedicated Hilton Head service-area page and LocalBusiness schema make it visible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long has Designs of the Interior been in business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Designs of the Interior was founded in 1999 by Stephanie Bruss and has operated as an independent studio for 27 years, growing to a 12-person team."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+</body>
+</html>
